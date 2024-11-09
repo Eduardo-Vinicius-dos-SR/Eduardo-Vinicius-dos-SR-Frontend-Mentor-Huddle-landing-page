@@ -1,0 +1,156 @@
+@media (max-width: 1500px) {
+    body .header {
+        padding: 25px 50px;
+    }
+
+    body .main {
+        padding: 0 70px;
+    }
+
+    body .main .informations .title {
+        padding-bottom: 25px;
+        font-size: 3.5rem;
+    }
+
+    body .main .informations .text {
+        font-size: 2rem;
+    }
+
+    body .main .informations .register-btn {
+        width: 225px;
+        font-size: 2.2rem;
+    }
+
+    body .footer {
+        padding-top: 10px;
+    }
+
+    body .footer nav .social-medias li a {
+        width: 60px;
+        height: 60px;
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    body .header {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    body .header .logo {
+        height: 40px;
+    }
+
+    body .main {
+        padding: 0 50px;
+        flex: 1;
+    }
+
+    body .main .informations .title {
+        padding-bottom: 20px;
+        font-size: 2.5rem;
+    }
+
+    body .main .informations .text {
+        padding-bottom: 30px;
+        font-size: 1.5rem;
+    }
+
+    body .main .informations .register-btn {
+        width: 200px;
+        padding: 15px 0;
+        font-size: 1.5rem;
+    }
+
+    body .footer {
+        padding-top: 0;
+        padding-right: 20px;
+    }
+
+    body .footer nav .social-medias li a {
+        width: 45px;
+        height: 45px;
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background: url(../images/bg-mobile.svg) var(--Violet) no-repeat center center;
+        background-size: cover;
+    }
+
+    body .header{
+        padding: 35px 0 100px;
+    }
+
+    body .header .logo {
+        height: 150px;
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    body .main {
+        flex-direction: column;
+        flex: 1;
+        padding: 0 40px;
+    }
+
+    body .main .illustration {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    body .main .informations {
+        width: 100%;
+        padding: 0 40px;
+        text-align: center;
+        align-items: center;
+    }
+
+    body .main .informations .title {
+        font-size: 4rem;
+        padding-bottom: 30px;
+    }
+
+    body .main .informations .text {
+        font-size: 2.5rem;
+        padding-bottom: 60px;
+    }
+
+    body .main .informations .register-btn {
+        width: 375px;
+        padding: 20px 0;
+        font-size: 2rem;
+    }
+
+    body .footer {
+        justify-content: center;
+        margin-top: auto;
+        padding: 100px 0 80px;
+    }
+
+    body .footer nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    body .footer nav .social-medias {
+        justify-content: center;
+    }
+
+    body .footer nav .social-medias li {
+        margin-right: 50px;
+    }
+
+    body .footer nav .social-medias li:last-child {
+        margin-right: 0;
+    }
+
+    body .footer nav .social-medias li a {
+        width: 70px;
+        height: 70px;
+        font-size: 3rem;
+    }
+}
